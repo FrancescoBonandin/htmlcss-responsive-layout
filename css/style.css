@@ -144,7 +144,7 @@ align-items: flex-end;
     width:100%;
 }
 
-#about-us img{
+#about-us .about-right img{
     border-radius: 50%;
 }
 
@@ -156,8 +156,27 @@ align-items: flex-end;
 
 /*FOOTER*/
 
+#footer-top{
+    background-color: var(--secondary-color);
+}
+
+#footer-bottom{
+    background-color: black;
+}
+
+#footer-top, #footer-bottom{
+    text-align: center;
+}
 
 /*FOOTER*/
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
 
 /* RESPONSIVE  */
 
@@ -267,7 +286,7 @@ align-items: flex-end;
     } 
     /* Header */
 
-     /* MAIN */
+    /* MAIN */
     /*Section Marketing*/
     .special-card{
         flex-wrap: nowrap;
