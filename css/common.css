@@ -30,3 +30,8 @@ img{
 ul{
     list-style: none;
 }
+
+ul a, ul a:visited{
+    text-decoration: none;
+    
+}
