@@ -1,17 +1,58 @@
 /*HEADER*/
 
+header{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.logo-container{
+
+}
+
+.container nav.flex{
+    justify-content: space-between;
 
 
+    padding:1rem 0 ;
+
+}
+
+.desktop-menu.flex{
+    display: none;
+}
 /*HEADER*/
 
 /*MAIN*/
 
+/* Section Marketing */
+
+#marketing .flex{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 100%;
+    background-color: var(--main-color-light);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.special-card-left, .special-card-right{
+    width: 100%;
+}
+
+
+
+/* Section Marketing */
 
 
 /*MAIN*/
 
 /*FOOTER*/
-
 
 
 /*FOOTER*/
@@ -21,12 +62,47 @@
 /* METHOD XXXXX FIRST */
 
 /* TABLET  */
-@media screen and (-width:) {
+@media screen and (min-width:768px) {
+    /* Header */
+    /* Header */
+
+    /* MAIN */
+    /*Section Marketing*/
+    #marketing > .container > .flex{
+        margin: -1rem;
+    }
+
+    .card{
+        width: calc(100% / 3 - 2rem);
+    }
+
+    .special-card{
+        width: calc((100% / 3 * 2) - 2rem);
+    }
+    /*Section Marketing*/
+    
+    /* MAIN */
     
 }
 
-/* YYYYY */
-@media screen and(-width:) {
+/* DESKTOP */
+@media screen and (min-width:992px) {
+    /* Header */
+    .hamburger-menu{
+        display: none;
+    }
+
+    .desktop-menu.flex{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 -1rem;
+    }
+
+    .desktop-menu.flex li{
+        padding: 1rem;
+        margin: 0 1rem;
+    } 
+    /* Header */
     
 }
 
