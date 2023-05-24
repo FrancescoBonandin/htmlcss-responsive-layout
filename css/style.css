@@ -126,7 +126,7 @@ align-items: flex-end;
 /* Section Marketing */
 
 /* Section Strategic Planning */
-#strategic-planning{
+#strategic-planning .container{
     padding: 2rem 0;
 }
 
@@ -144,8 +144,30 @@ align-items: flex-end;
 
 }
 
+#strategic-planning .card.left{
+    color: white;
+}
+
+#strategic-planning .card.left h2{
+    margin: 5rem 0;
+}
+
 #strategic-planning .card.right{
     background-color: white;
+}
+
+#strategic-planning .card.right p{
+    font-style: italic;
+    margin: 1rem;
+}
+
+#strategic-planning .card.right a > i{
+    display: inline-block;
+    
+    aspect-ratio: 1;
+    padding:1rem calc(1rem + 2px);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
 }
 
 
@@ -363,10 +385,15 @@ align-items: flex-end;
     /* Section Strategic Planning */
     #strategic-planning .flex{
         flex-wrap: nowrap;
+        align-items: flex-end;
     }
 
     #strategic-planning .card.left, #strategic-planning .card.right{
         width: 50%;
+    }
+
+    #strategic-planning .flex .card.right img{
+    width: 80%;
     }
 
     /* Section Strategic Planning */
