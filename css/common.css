@@ -9,7 +9,7 @@
     color: #5A6E7F;
 }
 
-#strategic-planning, #benefits, #foote-top{
+#strategic-planning, #benefits, #footer-top{
     background-color: var(--secondary-color);
 }
 
@@ -52,5 +52,5 @@ ul{
 
 a, a:visited{
     text-decoration: none;
-
+    color: black;
 }
