@@ -9,8 +9,6 @@ header{
     width: 100%;
 }
 
-
-
 .container nav.flex{
     justify-content: space-between;
     align-items: center;
@@ -62,7 +60,6 @@ header{
 
 /*MAIN*/
 /* Section Marketing */
-
 #marketing .flex{
     flex-wrap: wrap;
 }
@@ -89,7 +86,6 @@ align-items: flex-end;
 
 /* Section Strategic Planning */
 #strategic-planning{
-    background-color: var(--secondary-color);
     padding: 2rem 0;
 }
 
@@ -102,16 +98,12 @@ align-items: flex-end;
     margin: 0 auto;
 }
 
-
-
-.strategic-planning-left, .strategic-planning-right{
-    width: 100%;
+#strategic-planning .card.left, #strategic-planning .card.right{
     text-align: center;
-    padding: 1rem;
-    margin: 1rem;
+
 }
 
-.strategic-planning-right{
+#strategic-planning .card.right{
     background-color: white;
 }
 
@@ -123,30 +115,29 @@ align-items: flex-end;
     text-align: center;
 }
 
-.flex.testimonial-card{
+#testimonials .flex.card{
     flex-wrap: wrap;
-    padding: 1rem;
     margin: 1rem 0;
     background-color: var(--secondary-color);
     justify-content: center;
 }
 
-.testimonial-card-left, .flex.testimonial-card-right{
+#testimonials .card .left, #testimonials .card .right{
     width: 100%;
 }
 
-.flex .testimonial-card-left  img{
+#testimonials .card .left img{
     border-radius: 50%;
     margin: 0 auto;
 }
 
-.flex .testimonial-card-right > p::before{
+#testimonials .card .right > p::before{
     display: inline;
     content: "\275d";
     font-size: 1rem;
 }
 
-.flex .testimonial-card-right > p::after{
+#testimonials .card .right > p::after{
     display: inline;
     content: "\275e";
     font-size: 1rem;
@@ -155,11 +146,6 @@ align-items: flex-end;
 /* Section Testimonials */
 
 /* Section Benefits */
-
-#benefits{
-    background-color: var(--secondary-color);
-}
-
 #benefits .flex{
     flex-wrap: wrap;
 }
@@ -167,7 +153,6 @@ align-items: flex-end;
 #benefits .card{
     background-color: white;
 }
-
 
 /* Section Benefits */
 
@@ -184,19 +169,12 @@ align-items: flex-end;
 #about-us .about-right img{
     border-radius: 50%;
 }
-
-
 /* Section About Us */
 
 
 /*MAIN*/
 
 /*FOOTER*/
-
-#footer-top{
-    background-color: var(--secondary-color);
-}
-
 #footer-bottom{
     background-color: black;
 }
@@ -230,11 +208,11 @@ align-items: flex-end;
         margin: -1rem;
     }
 
-    .card{
+    #marketing .card{
         width: calc(100% / 3 - 2rem);
     }
 
-    .special-card{
+    #marketing .card.special-card{
         width: calc((100% / 3 * 2) - 2rem);
     }
 
@@ -249,17 +227,17 @@ align-items: flex-end;
 
 
     /* Section Testimonial */
-    .flex.testimonial-card{
+    #testimonials .flex.card{
         flex-wrap: nowrap;
         justify-content: flex-start;
         align-items: center;
     }
 
-    .testimonial-card-left{
+    #testimonials .left{
         width: 30%;
     }
 
-    .flex.testimonial-card-right{
+    #testimonials .right{
         width: 70%;
     }
 
@@ -344,11 +322,7 @@ align-items: flex-end;
         flex-wrap: nowrap;
     }
 
-    .strategic-planning-left{
-        width: 50%;
-    }
-
-    .strategic-planning-right{
+    #strategic-planning .card.left, #strategic-planning .card.right{
         width: 50%;
     }
 
@@ -366,6 +340,11 @@ align-items: flex-end;
 
 
     /* Section Benefits */
+
+    /* Section About us */
+    /* Section About us */
+
+
     /* MAIN */
     
 }
