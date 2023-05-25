@@ -253,7 +253,8 @@ align-items: flex-end;
 
 #benefits h2{
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
+    font-size: 3rem;
     color: white;
 }
 
@@ -286,7 +287,7 @@ align-items: flex-end;
 }
 
 #about-us .about-left h2{
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--secondary-color);
 }
 
@@ -340,6 +341,7 @@ align-items: flex-end;
 
 #footer-bottom{
     background-color: black;
+    font-size: 0.7rem;
 }
 
 #footer-top, #footer-bottom{
